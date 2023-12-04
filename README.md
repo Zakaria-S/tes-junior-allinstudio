@@ -5,12 +5,12 @@
 Aktifkan dulu MySQL anda, lalu buka terminal di folder projek ini, lalu jalankan perintah:
 ```bash
 composer install
+```
+```bash
 php artisan migrate
-php artisan db:seed --class=MerkSeeder
-php artisan db:seed --class=KategoriSeeder
-php artisan db:seed --class=ProdukSeeder
-php artisan db:seed --class=AdminSeeder
-php artisan serve
+```
+```bash
+php artisan db:seed --class=MerkSeeder && php artisan db:seed --class=KategoriSeeder && php artisan db:seed --class=ProdukSeeder && php artisan db:seed --class=AdminSeeder && php artisan serve
 ```
 
 Begitu masuk aplikasi, anda akan disuguhkan formulir login<br>
